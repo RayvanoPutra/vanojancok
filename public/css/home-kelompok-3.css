@@ -1,0 +1,80 @@
+* {
+    font-family: 'poppins',sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.kontainer {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    background-color: #142d4c;
+    width: 260px;
+    padding: 20px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.main-konten {
+    background-color:   #ececec;
+    flex-grow: 1;
+}
+
+.sidebar .deskirpsi-header {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.sidebar a {
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.sidebar .header .list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 8px;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar .header .ilustrasi {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+    /* margin: 10px 0 20px 0; */
+    box-sizing: border-box;
+}
+
+.sidebar .main .list-item .deskripsi {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.sidebar .main .list-item {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 10px;
+    border-radius: 50px;
+    width: 212px;
+}
+
+.sidebar.main .list-item:hover {
+    background-color: #2FFFFF;
+}
